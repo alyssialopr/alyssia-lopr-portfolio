@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alyssia Lopr" />
+    <meta name="description" content="This is a portfolio website of Alyssia" />
+    <meta
+      name="keywords"
+      content="portfolio, alyssia, web developer, alyssia
+    lorsold pradon"
+    />
+    <link rel="icon" href="components/alybbt.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@87.5,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Alyssia LoPr - Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <img src="components/alybbt.png" alt="Aly bubble tea" />
+        <h1>Alyssia LoPr</h1>
+        <div class="contact-info">
+          <a href="mailto:alyssia.pradon@gmail.com">
+            <i class="fa-solid fa-envelope contact-top"></i>
+          </a>
+          <a href="https://github.com/alyssialopr">
+            <i class="fa-brands fa-github-alt contact-top"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#presentation">Présentation</a></li>
+        <li><a href="#competence">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#experience">Expériences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="presentation" id="presentation">
+      <div class="presentation1">
+        <h2>Hello, moi c'est Alyssia</h2>
+        <h3>Développeuse Web</h3>
+      </div>
+      <div class="presentation2">
+        <p>
+          Je suis une jeune développeuse web passionnée par la création
+          numérique, actuellement en 3e année de Bachelor Coding & Digital
+          Innovation. Mon intérêt principal se tourne vers le développement
+          front-end, où je prends plaisir à concevoir des interfaces intuitives
+          et esthétiques. Cependant, je m'oriente également vers le fullstack
+          pour élargir mes compétences et mieux comprendre l'ensemble du
+          processus de développement.
+        </p>
+      </div>
+    </section>
+    <section class="competence" id="competence">
+      <h1>Mes compétences</h1>
+      <div class="container">
+        <div class="card card-resilience">
+          <h3>Web Design & Prototypage</h3>
+          <p>
+            HTML <br />
+            CSS <br />
+            Figma <br />
+            WordPress
+          </p>
+        </div>
+        <div class="card card-growth">
+          <h3>Développement Backend</h3>
+          <p>
+            Node.js <br />
+            Express <br />
+            PHP <br />
+            MySQL
+          </p>
+        </div>
+        <div class="card card-engagement">
+          <h3>Language de programmation</h3>
+          <p>
+            JavaScript <br />
+            PHP <br />
+            MySQL
+          </p>
+        </div>
+        <div class="card card-visioning">
+          <h3>Frameworks Frontend & Libraries</h3>
+          <p>
+            React <br />
+            Vue <br />
+            Angular <br />
+            React Spring <br />
+            Sass
+          </p>
+        </div>
+        <div class="card card-goal-orientation">
+          <h3>Tools & Utilities</h3>
+          <p>
+            Sass <br />
+            Figma <br />
+            React Spring
+          </p>
+        </div>
+        <div class="card card-self-belief">
+          <h3>Versionning</h3>
+          <p>
+            Git <br />
+            GitHub
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="projets" id="projets">
+      <div class="explication">
+        <h1>Mes Projets</h1>
+        <h2>
+          Voici des projets scolaires et personnels développé durant ma
+          formation
+        </h2>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <video
+              src="assets/mockup/Mockup_BapVLG.webm"
+              class="d-block"
+              autoplay
+              loop
+              muted
+            ></video>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Application de gestion d'association et cartographie</h5>
+              <p>
+                Une web application développée pour la ville de Villeneuve la
+                Garenne, afin de faciliter aux habitant l'accès aux informations
+                associatives.
+              </p>
+              <p>Développée avec Vue, Node.js, Express, Leafleet</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video
+              src="assets/mockup/Mockup_MuséeDuJouet.webm"
+              class="d-block"
+              autoplay
+              loop
+              muted
+            ></video>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>WebApplication de création de mascotte</h5>
+              <p>
+                Une web application développée pour le musée du jouet de la
+                ville de Poissy, afin de créer des mascottes pour les JO.
+              </p>
+              <p>Développée avec JavaScript, PHP, Scss</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video
+              src="assets/mockup/Mockup_Pokemon.webm"
+              class="d-block"
+              autoplay
+              loop
+              muted
+            ></video>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Site de E-commerce pokemon</h5>
+              <p>
+                Un site de e-commerce développé pour un client fictif, afin de
+                vendre des Pokemons.
+              </p>
+              <p>
+                Développée avec JavaScript, html, css et pokeApi (une API de
+                pokemons)
+              </p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="experience" id="experience">
+      <h1>Mes Expériences professionnelles</h1>
+      <ul class="timeline">
+        <li class="mariobox">
+          <time datetime="06-2024">Juin 2024 - Septembre 2024</time>
+          Assistante de Gestion - Centre Pompidou
+        </li>
+        <li class="mariobox">
+          <time datetime="01-2024">Janvier 2024 - Avril 2024</time>Cheffe de
+          projet - Mairie de Villeneuve la Garenne
+        </li>
+        <li class="mariobox">
+          <time datetime="12-2024">Décembre 2023 - Mai 2024</time>
+          Caissière Contrôleuse - Musée d'Orsay
+        </li>
+        <li class="mariobox">
+          <time datetime="10-2023">Octobre 2023 - Décembre 2023</time>
+          Développeuse Front-End - Musée du Jouet Poissy
+        </li>
+        <li class="mariobox">
+          <time datetime="08-2023">Août 2023</time>Caissière Contrôleuse - Musée
+          d'Orsay
+        </li>
+        <li class="mariobox">
+          <time datetime="08-2022">Août 2022</time>Auxiliaire administrative
+          <br />
+          Préfecture de Police de Paris
+        </li>
+        <li class="mariobox">
+          <time datetime="09-2021">Septembre 2021 - Juillet 2022</time>
+          Community Manager -
+          <a
+            href="https://www.lyonne.fr/auxerre-89000/actualites/un-collectif-de-lyceens-de-sens-lutte-contre-la-precarite-menstruelle_14050226/"
+          >
+            Les Chaperons Rouges
+          </a>
+        </li>
+      </ul>
+      <a
+        href="components/CValyssia.pdf"
+        download="CV_AlyssiaLorsoldPradon"
+        class="download-btn"
+      >
+        Télécharger mon CV
+      </a>
+      <img
+        class="flowers fleur1"
+        src="components/flowers.png"
+        alt="Fleur blanche"
+      />
+      <img
+        class="flowers fleur2"
+        src="components/pink_flowers.png"
+        alt="Fleur rose"
+      />
+      <img
+        class="flowers fleur3"
+        src="components/purple_flowers.png"
+        alt="Fleur violette"
+      />
+    </section>
+    <footer>
+      <section class="contact" id="contact">
+        <h3>
+          Toujours à la recherche de nouveaux projets, n'hésitez pas à me
+          contacter par mail ou sur les réseaux sociaux.
+        </h3>
+        <a href="https://www.linkedin.com/in/alyssia-lorsold-pradon-55758318b/">
+          <i class="fa-brands fa-linkedin icone"></i>
+        </a>
+        <a href="https://github.com/alyssialopr">
+          <i class="fa-brands fa-github icone"></i>
+        </a>
+        <a href="https://x.com/grdpatrolfantom">
+          <i class="fa-brands fa-x-twitter icone"></i>
+        </a>
+      </section>
+      <p>© 2024 Alyssia Lorsold Pradon</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
